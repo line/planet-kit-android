@@ -17,4 +17,4 @@ Please file any issues or inquiries you have to our representative or dl_planet_
 Your opinions are always welcome. 
 
 ## FAQ
-You can find answers to our frequently asked questions in the FAQ section.
+You can find answers to our frequently asked questions in the [FAQ](https://docs.lineplanet.me/help/faq/) section.
