@@ -6,6 +6,24 @@ Planet Documentation provides additional resources to help you integrate LINE Pl
 
 [Planet Documentation](https://docs.lineplanet.me/)
 
+## Installation
+To install the latest Programmable PlanetKit Android SDK add the following configuration to your build.gradle file.
+
+```gradle
+allprojects {
+  repositories {
+    maven {
+        url 'https://maven.pkg.github.com/line/planet-kit-android/'
+        allowInsecureProtocol true
+    }
+  }
+}
+
+dependencies {
+  implementation 'com.linecorp.planetkit:planetkit:5.3.0'
+}
+```
+
 ## API Reference
 For detailed information on APIs, please refer to the following documents.
 
