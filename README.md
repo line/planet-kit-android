@@ -7,7 +7,7 @@ Planet Documentation provides additional resources to help you integrate LINE Pl
 [Planet Documentation](https://docs.lineplanet.me/)
 
 ## Installation
-To install the latest Programmable PlanetKit Android SDK add the following configuration to your build.gradle file.
+To install the latest PlanetKit Android SDK, add the following configuration to your `build.gradle` file.
 
 ```gradle
 allprojects {
