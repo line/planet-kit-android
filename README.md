@@ -7,9 +7,10 @@ Planet Documentation provides additional resources to help you integrate LINE Pl
 [Planet Documentation](https://docs.lineplanet.me/)
 
 ## Installation
-To install the latest PlanetKit Android SDK, add the following configuration to your `build.gradle` file.
+To install the latest PlanetKit Android SDK, add the following configuration to your `build.gradle` files.
 
 ```gradle
+//Project-level
 allprojects {
   repositories {
     maven {
@@ -19,6 +20,7 @@ allprojects {
   }
 }
 
+//Module-level
 dependencies {
   implementation 'com.linecorp.planetkit:planetkit:5.3.0'
 }
