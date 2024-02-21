@@ -7,12 +7,25 @@ Planet Documentation provides additional resources to help you integrate LINE Pl
 [Planet Documentation](https://docs.lineplanet.me/)
 
 ## Installation
-To install the latest PlanetKit Android SDK, add the following configuration to your module `build.gradle` file.
+Starting with version 5.3.3, PlanetKit Android is distributed through the [Maven Central Repository](https://central.sonatype.com/).
 
-```gradle
-dependencies {
-  implementation 'com.linecorp.planetkit:planetkit:5.3.0'
+If the Maven Central Repository is not set up in your project, add the repository as follows:
+```groovy
+// Root-level build.gradle
+allprojects {
+    repositories {
+        mavenCentral()
+    }
 }
+```
+
+Add dependency to your module `build.gradle`.
+```groovy
+// module-level build.gradle
+dependencies {
+    ...
+    implementation 'com.linecorp.planetkit:planetkit:5.3.3'
+    ...
 ```
 
 ## API Reference
