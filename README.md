@@ -6,6 +6,10 @@ Planet Documentation provides additional resources to help you integrate LINE Pl
 
 [Planet Documentation](https://docs.lineplanet.me/)
 
+## Plugins
+
+- [planet-kit-virtual-background](planet-kit-virtual-background/): The virtual background plugin of planet-kit-android.
+
 ## Installation
 Starting with version 5.3.3, PlanetKit Android is distributed through the [Maven Central Repository](https://central.sonatype.com/).
 
