@@ -35,7 +35,7 @@ dependencies {
 ## API Reference
 For detailed information on APIs, please refer to the following documents.
 
-[API Reference](https://docs.lineplanet.me/api-reference/client/android/5.3/index.html)
+[API Reference](https://docs.lineplanet.me/api-reference/client/android/latest/index.html)
 
 ## Issues and Inquiries
 
